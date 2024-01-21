@@ -16,7 +16,7 @@ else if(input == "u"){
     let viTriPhanTuMuonTim = menu.indexOf(prompt("Moi nguoi dung nhap vao vi tri muon tim"));
     menu[viTriPhanTuMuonTim] = prompt("Moi nguoi dung nhap ten mon an muon tim");
 }
-else if(input == "u"){
+else if(input == "d"){
     let viTriPhanTuMuonXoa = menu.indexOf(prompt("Moi nguoi dung nhap vao mon an muon xoa"));
     menu.splice(viTriPhanTuMuonXoa, 1);
 }
