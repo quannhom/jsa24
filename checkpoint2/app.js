@@ -24,4 +24,29 @@ else if(input == "d"){
 
 while(input== "c" || input == "r"|| input == "u" || input == "d");
 
-        
+function creatMenu(){
+    const data = {
+        food : prompt("Moi nguoi dung nhap mon an muon them vao menu")
+    }
+    let getMenu = JSON.parse(localStorage.getItem("menu"));
+    getMenu.push(data);
+
+    localStorage.setItem("menu".JSON.stringify(getMenu));
+    getMenu.push(data);
+    localStorage.setItem("menu".JSON.stringify(getMenu));
+
+    return data
+}
+function readMenu()
+function updateMenu(){
+    nameUpdate = prompt("Moi nguoi dung nhap vao ten nhom muon update").trim();
+    let viTriPhanTuMuonTim = getMenu.indexOf();
+    menu[viTriPhanTuMuonTim] = prompt("Moi nguoi dung nhap ten mon an muon tim");
+
+}
+
+function deleteMenu(){
+    let viTriPhanTuMuonXoa = getMenu.indexOf();
+    menu[viTriPhanTuMuonXoa] = prompt("Moi nguoi dung nhap vao ten mon an muon delete")
+    menu.splice(viTriPhanTuMuonXoa, 1);
+}        
