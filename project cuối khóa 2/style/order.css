@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');  
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +23,6 @@
     width: 150px;
     margin: 15px;
 }
-
 ul{
     display: flex;
 }
@@ -42,74 +41,18 @@ ul li a{
 .navIcon a{
     color: black;
 }
-.container{
-    background-image: url(https://banhchungdothi.com/wp-content/uploads/2022/01/background-banh-chung-tet2022-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .container .banner img{
-    background-size: cover;
     width: 100%;
 }
-.container .story{
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.container .story .text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.story .text .text-text{
-    display: flex;
-    flex-direction: column;
-}
-.story img{
-    width: 300px;
-}
-.container .ban_bet img{
-    width: 100%;
-    background-size: cover;
-    background: no-repeat;
-    background-position: 51% 81%;
-}
-.product{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between  ;
-    border: 2px dashed #95274E;
-    border-radius: 10px;
-    margin-top: -10%;
-    position: relative;
-    top: -20px;
-    padding: 20px;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(https://i.pinimg.com/564x/e5/71/d1/e571d1f15abb139196b78ed56c75ffb4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.product .cacSP span{
-    font-size: 32px;
-}
-.product .product_row_row{
-    display: flex;
-    justify-content: space-between;
-}
-.product .product_row{
-    justify-content: space-around;
-    flex-direction: row-reverse;
-    max-width: 25%;
+.container h2{
     text-align: center;
-}
-.product .product_row img{
-    width: 100%;
+    color: #ed1c24;
 }
 .order_all{
     background-image: url(https://banhchungdothi.com/wp-content/uploads/2022/01/background-banh-chung-tet2022-1.jpg);
+    width: 100%;
+}
+.order_all{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
@@ -148,32 +91,24 @@ ul li a{
     height: 2.2em;
     margin-right: 200px;
 }
-.orIn h2{
-    font-weight: 700;
-}
-.customer{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-image: url(../assest/ban_bet.jpg);
-    padding: 110px;
-    padding-top: 50px;
-    color: #fff;
-}
-.customer .line_customer{
-    border: 2px solid #fff;
-    width: 70px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.customer .customer-text-all{
+.order_map{
     display: flex;
-    justify-content: space-evenly;
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
 }
-.customer .customer-text-all .customer-text{
-    border: 1px solid #fff;
-    padding: 20px;
-    border-radius: 50px;
+.order_map .or_In{
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+.order_map .mapouter{
+    padding-left: 200px;
+    margin-bottom: 50px;
+}
+.order_map .mapouter p{
+    font-size: 22px;
+    color: #008000;
 }
 .futher{
     justify-content: space-around;
